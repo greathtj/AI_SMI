@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 # ---------------------------------------------------------------------------------
-# 1. 가상 데이터 생성 (전과 동일)
+# 1. 가상 데이터 생성
 # ---------------------------------------------------------------------------------
 def generate_pdm_data(n_samples=1000):
     np.random.seed(42)
